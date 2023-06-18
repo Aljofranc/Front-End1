@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal Azulgrana</title>
-</head>
-<style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal Azulgrana</title>
+  <style>
     /* Estilos generales */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      background-color: #fcfcfc;
+      background-image: url("fondo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
 
     h1 {
       color: #004d98;
+      text-align: center;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
     }
 
     p {
       color: #000;
+      text-align: center;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
     }
 
     a {
@@ -36,99 +47,135 @@
     /* Estilos para las imágenes */
     img {
       display: block;
-      margin-bottom: 10px;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
 
     /* Futuro de Messi */
     li:last-child {
       margin-top: 20px;
     }
+
     nav {
-  background-color: #f2f2f2;
-  padding: 10px;
-}
+      background-color: #A50044;
+      padding: 10px;
+      text-align: center;
+    }
 
-nav {
-  background-color: #f2f2f2;
-  padding: 10px;
-}
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin-right: 10px;
+      border-radius: 4px;
+    }
 
-nav a {
-  color: #333;
-  text-decoration: none;
-  padding: 8px 12px;
-  margin-right: 10px;
-  border-radius: 4px;
-}
+    nav a:hover {
+      background-color: #fff;
+      color: #A50044;
+    }
 
-nav a:hover {
-  background-color: #333;
-  color: #fff;
-}
+    nav a b {
+      font-weight: bold;
+    }
 
-nav a b {
-  font-weight: bold;
-}
+    center {
+      text-align: center;
+    }
 
-center {
-  text-align: center;
-}
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
+    /* Estilos específicos para cada sección */
+    .section {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
 
-</style>
+    .section-heading {
+      color: #004d98;
+      text-align: center;
+    }
+
+    .section-content {
+      color: #000;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image {
+      margin: 0 auto;
+    }
+
+  </style>
+</head>
+
 <body>
-    <nav>
-        <a href="./Principal.html"><b>FC Barcelona</b></a>
-        <a href="./index.html">Noticias y Actualizaciones</a>
-        <a href="./Plantilla.html">Plantilla</a>
-    </nav>
-    <center>
-        <h1>Club de Fans del Barcelona FC</h1>
-        </center>
-    <br>
-    <body>
-        <div class="header">
-          <h1>Barcelona FC</h1>
-          <p>Información general sobre el club</p>
-        </div>
-      
-        <div class="container">
-          <div class="section">
-            <h2 class="section-heading">Historia del Club</h2>
-            <p class="section-content">El Barcelona FC, fundado en 1899, es uno de los clubes de fútbol más prestigiosos del mundo.
-              A lo largo de su historia, el Barcelona ha ganado numerosos títulos nacionales e internacionales, incluyendo
-              <a href="#">La Liga</a>, <a href="#">la Copa del Rey</a> y <a href="#">la Liga de Campeones de la UEFA</a>.</p>
-          </div>
-      
-          <div class="section">
-            <h2 class="section-heading">Logros Destacados</h2>
-            <ul class="section-content">
-              <li>26 títulos de La Liga</li>
-              <li>31 títulos de la Copa del Rey</li>
-              <li>5 títulos de la Liga de Campeones de la UEFA</li>
-              <li>4 títulos del Mundial de Clubes</li>
-              <li>3 títulos de la Supercopa de Europa</li>
-            </ul>
-          </div>
-      
-          <div class="section">
-            <div class="image">
-                <img src="./imagenes/barcelona.png" alt="Escudo Oficial del Barcelona FC" width="200" height="150">
-            </div>
-            <h2 class="section-heading">Estadio Camp Nou</h2>
-            <p class="section-content">El Camp Nou es el estadio del Barcelona FC y tiene una capacidad de más de 99,000 espectadores.
-              Es uno de los estadios más grandes del mundo y ha sido sede de numerosos partidos y finales de alto nivel.</p>
-              <img src="Camp-Nou.webp" alt="Estadio Oficial" width="250" height="150">
-          </div>
-          <center>
-            <footer>
-                Alfonso Castellano 2023
-            </footer> 
-            </center>
+  <nav>
+    <a href="./Landing/landing.html"><b>Iniciar Sesión</b></a>
+    <a href="./Principal.html"><b>Pagina Actual</b></a>
+    <a href="./index.html">Noticias y Actualizaciones</a>
+    <a href="./Plantilla.html">Plantilla</a>
+  </nav>
+  <center>
+    <h1>Club de Fans del Barcelona FC</h1>
+  </center>
+  <br>
+  <div class="header">
+    <h1>Barcelona FC</h1>
+    <p>Información general sobre el club</p>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h2 class="section-heading">Historia del Club</h2>
+      <p class="section-content">El Barcelona FC, fundado en 1899, es uno de los clubes de fútbol más prestigiosos del mundo.
+        A lo largo de su historia, el Barcelona ha ganado numerosos títulos nacionales e internacionales, incluyendo
+        <a href="https://www.laliga.com/laliga-santander">La Liga</a>, <a href="https://www.laliga.com/otras-competiciones/copa-del-rey">la Copa del Rey</a> y <a href="https://es.uefa.com/uefachampionsleague/">la Liga de Campeones de la UEFA</a>.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-heading">Logros Destacados</h2>
+      <ul class="section-content">
+        <li>26 títulos de La Liga</li>
+        <li>31 títulos de la Copa del Rey</li>
+        <li>5 títulos de la Liga de Campeones de la UEFA</li>
+        <li>4 títulos del Mundial de Clubes</li>
+        <li>3 títulos de la Supercopa de Europa</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="image">
+        <img src="./imagenes/barcelona.png" alt="Escudo Oficial del Barcelona FC" width="200" height="150">
+      </div>
+      <h2 class="section-heading">Estadio Camp Nou</h2>
+      <p class="section-content">El Camp Nou es el estadio del Barcelona FC y tiene una capacidad de más de 99,000 espectadores.
+        Es uno de los estadios más grandes del mundo y ha sido sede de numerosos partidos y finales de alto nivel.</p>
+      <div class="image">
+        <img src="Camp-Nou.webp" alt="Estadio Oficial" width="250" height="150">
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <footer>
+      Alfonso Castellano 2023
+    </footer>
+  </center>
 </body>
+
 </html>
